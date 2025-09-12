@@ -44,16 +44,18 @@ export default function Header({ name }) {
                     className='rounded-4xl' />
 
                 <div className=' flex  flex-col gap-y-10'>
-                    <h2 className='text-7xl'>Creating designs that <span className='text-orange-600'>ignite</span>  responses.</h2>
+                    <h2 className='text-7xl'>Creating designs that <span className='text-blue-600'>ignite</span>  responses.</h2>
                     <h3>Direct your energy towards growing your business, and entrust me with the task of efficiently presenting your business in the digital world, setting it apart from competitors.</h3>
                     <SecondButton text="About Me" />
                 </div>
             </div>
-            <div className='font-bold flex justify-center text-9xl uppercase m-10 '>About Me</div>
+            <div className='font-bold flex justify-center text-9xl uppercase m-10 ' id="About">About Me</div>,
+
+            <div className='font-bold flex justify-center text-9xl uppercase m-10 ' id="projects">Projects</div>
             
 
             <div className='text-5xl font-bold '>
-                <p>I provide artistic <span className='text-orange-600'>solutions</span> to </p>
+                <p>I provide artistic <span className='text-blue-600'>solutions</span> to </p>
                 <p> meet your business  </p>
                 <p>requirements.</p>
             </div>
