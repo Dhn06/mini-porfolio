@@ -12,7 +12,7 @@ import SecondButton from './SecondButton';
 
 export default function Header({ name }) {
     return (
-        <div className='px-10 bg-green-400'>
+        <div className='px-10 '>
             <h1 className='text-7xl text-center mt-12'>{name}</h1>
             <div className='flex  gap-10 justify-between mt-15 '>
                 <div className='h-1 w-130 bg-sky-700'></div>

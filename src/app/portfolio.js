@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    title: "To-Do List App",
+    title: "ToDo List App",
     description: "Build a to-do list to add, remove, and mark tasks complete. Features input to add tasks, complete/remove buttons, and persistence with localStorage.",
     category: "JavaScript",
     type: "DOM & Logic",
