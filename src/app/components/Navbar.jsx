@@ -11,10 +11,10 @@ export default function Navbar() {
                         <Link href="/">Home</Link>
                     </li>
                     <li className='active:text-orange-500 hover:texto'>
-                        <Link href="#about">About</Link>
+                        <Link href="#About">About</Link>
                     </li>
                     <li>
-                        <Link href="#projectss">Projects</Link>
+                        <Link href="#projects">Projects</Link>
                     </li>
                 </div>
 
@@ -33,7 +33,7 @@ export default function Navbar() {
                 <div className='flex items-center gap-5'>
             
                     <li>
-                        <Link href="#contact">Contact</Link>
+                        <Link href="#Contact">Contact</Link>
                     </li>
                 </div>
             </ul>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function ProjectCard({ src, title, desc, cat, type, link }) {
     return (
         <div className='border border-blue-500'>
-            <Image src={`/images/${src}.png`} width={300} height={300} alt={title} />
+            <Image src={`/images/${src}.png`} width={800} height={300} alt={title} />
             <h2 className='text-lg font-bold'>{title}</h2>
             <p className='text-md'>{desc}</p>
 

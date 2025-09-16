@@ -1,4 +1,4 @@
-const projects = [
+const projects = [ 
   {
     id: 1,
     title: "ToDo List App",
@@ -13,7 +13,6 @@ const projects = [
     description: "Basic calculator for arithmetic operations. Includes digits and operators, clear/backspace, and support for chained operations.",
     category: "JavaScript",
     type: "DOM & Logic",
-    liveLink: "",
     liveLink: "https://simple-calculator-nine-rosy.vercel.app/"
   },
   {
@@ -23,7 +22,7 @@ const projects = [
     category: "JavaScript",
     type: "DOM & Logic",
     liveLink: "https://digital-clock-lilac-seven.vercel.app/"
- },
+  },
   {
     id: 4,
     title: "Countdown Timer",
@@ -54,7 +53,7 @@ const projects = [
     description: "Generate passwords based on user criteria (length, character sets). Supports copy-to-clipboard.",
     category: "React/Next.js",
     type: "UI/State & Hooks",
-    liveLink: "https://digital-clock-lilac-seven.vercel.app/"
+    liveLink: "https://react-mini-projects-git-master-dhns-projects-4e9d605c.vercel.app/random-password-generator"
   },
   {
     id: 8,
@@ -64,14 +63,22 @@ const projects = [
     type: "UI/State & Hooks",
     liveLink: "https://react-mini-projects-kappa.vercel.app/tic-tac-toe-game"
   },
-   {
+  {
     id: 9,
     title: "Quiz App",
     description: "Multiple-choice quiz with scoring. Shows one question at a time, tracks score, and includes retake/add questions options.",
     category: "Part C — React/Next.js I",
     type: "React/Next.js",
     liveLink: "https://react-mini-projects-kappa.vercel.app/quiz-app"
- }
+  },
+  {
+    id: 10,
+    title: "Currency Converter",
+    description: "Convert amounts between different currencies using real-time exchange rates API. Includes dropdowns for selecting currencies and input validation.",
+    category: "React/Next.js",
+    type: "APIs & Data",
+    liveLink: "https://react-mini-projects-git-master-dhns-projects-4e9d605c.vercel.app/currency-converter"
+  }
 ];
 
 export { projects };

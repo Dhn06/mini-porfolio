@@ -13,7 +13,7 @@ export default function Services() {
 
             <div className='flex justify-between my-10 gap-x-10'>
                 <div>
-                    <Image src="/writing.png" alt="note" height={620} width={500} />
+                    {/* <Image src="/writing.png" alt="note" height={620} width={500} /> */}
                     <p>My services blend creativity and strategy to bring your vision to life, leaving a lasting impact.</p>
                 </div>
             </div>
