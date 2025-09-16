@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function page() {
+export default function Contact() {
   return (
-    <div>page</div>
+    <div>
+      <input type="text" name="name" id="#contact" />
+      <input type="text" name="email" id="#contact" />
+    </div>
   )
 }

@@ -5,7 +5,7 @@ const projects = [
     description: "Build a to-do list to add, remove, and mark tasks complete. Features input to add tasks, complete/remove buttons, and persistence with localStorage.",
     category: "JavaScript",
     type: "DOM & Logic",
-    liveLink: "https://digital-clock-lilac-seven.vercel.app/"
+    liveLink: "https://todo-app-topaz-phi.vercel.app/"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const projects = [
     category: "JavaScript",
     type: "DOM & Logic",
     liveLink: "",
-    liveLink: "https://digital-clock-lilac-seven.vercel.app/"
+    liveLink: "https://simple-calculator-nine-rosy.vercel.app/"
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projects = [
     description: "Convert between numbers and Roman numerals. Handles invalid inputs gracefully.",
     category: "JavaScript",
     type: "Games, Utilities & Audio",
-    liveLink: "https://digital-clock-lilac-seven.vercel.app/"
+    liveLink: "https://roman-numeral-converter-olive.vercel.app/"
   },
   {
     id: 6,

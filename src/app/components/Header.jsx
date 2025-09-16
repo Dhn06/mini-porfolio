@@ -28,6 +28,8 @@ export default function Header({ name }) {
                 </div>
 
                 <Button text="Hire Me" />
+                <SecondButton />
+                <Image />
             </div>
             <div className='flex flex-col text-2xl items-center  my-5 justify-center cursor-pointer'>
                 <MdKeyboardArrowDown className='-mb-5' />
@@ -35,7 +37,7 @@ export default function Header({ name }) {
                 <MdKeyboardArrowDown className='-mb-5 text-gray-400' />
             </div>
 
-            
+
 
 
         </div>

@@ -5,7 +5,7 @@ import FooterLink from './FooterLink'
 
 export default function Footer({ }) {
     return (
-        <footer className='px-20 bg-green-400 py-5'>
+        <footer className='px-20 py-5'>
             <div className='flex flex-col gap-10 justify-between sm:flex-row  items-start '>
                 <h3>Logo</h3>
 
