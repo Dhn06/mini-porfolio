@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Services() {
     return (
         <div>
-            <div className='text-5xl font-bold '>
+            <div className='text-5xl font-bold mt-10'>
                 <p>I provide artistic <span className='text-blue-600'>solutions</span> to </p>
                 <p> meet your business  </p>
                 <p>requirements.</p>

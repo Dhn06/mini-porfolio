@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav  className='fixed w-full -z-[-1] bg-neutral-950'>
             <ul className='flex items-center justify-between mx-10 my-8 font-bold text-lg gap-15'>
                 <div className='flex items-center gap-5'>
                     <li>

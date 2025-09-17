@@ -4,9 +4,7 @@ import { FaDribbble } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import Button from './Button';
 import { MdKeyboardArrowDown } from "react-icons/md";
-import Image from 'next/image';
-import SecondButton from './SecondButton';
-
+import {BsArrowUpRight} from "react-icons/bs"
 
 
 
@@ -15,7 +13,7 @@ export default function Header({ name }) {
         <div className='px-10 '>
             <h1 className='md:text-7xl text-3xl text-center mt-12'>{name}</h1>
             <div className='flex md:flex-row flex-col gap-10 justify-between mt-15 '>
-                <div className='h-1 max-w-130 bg-sky-700'></div>
+                <div className='h-1 md:w-130 bg-sky-700'></div>
                 <p className='max-w-[600px] text-2xl mr-6'> Experienced creative designer and custom artist based in London, blending innovation with artistic flair. Crafting captivating visuals that leave a lasting impression. </p>
             </div>
 
@@ -27,8 +25,10 @@ export default function Header({ name }) {
                     <FaBehance />
                 </div>
 
-                <Button text="Hire Me" />
-    
+                <Button data="Let's Talk">
+                    <BsArrowUpRight />
+                </Button>
+
             </div>
             <div className='flex flex-col text-2xl items-center  my-5 justify-center cursor-pointer'>
                 <MdKeyboardArrowDown className='-mb-5' />

@@ -67,8 +67,8 @@ const projects = [
     id: 9,
     title: "Quiz App",
     description: "Multiple-choice quiz with scoring. Shows one question at a time, tracks score, and includes retake/add questions options.",
-    category: "Part C — React/Next.js I",
-    type: "React/Next.js",
+    category: " React/Next.js ",
+    type: "APIs & Data",
     liveLink: "https://react-mini-projects-kappa.vercel.app/quiz-app"
   },
   {
