@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
-import { FaDribbble } from "react-icons/fa";
-import { FaBehance } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
+// import { FaDribbble } from "react-icons/fa";
+// import { FaBehance } from "react-icons/fa";
 import Button from './Button';
 import { MdKeyboardArrowDown } from "react-icons/md";
 import {BsArrowUpRight} from "react-icons/bs"
@@ -14,15 +14,15 @@ export default function Header({ name }) {
             <h1 className='md:text-7xl text-3xl text-center mt-12'>{name}</h1>
             <div className='flex md:flex-row flex-col gap-10 justify-between mt-15 '>
                 <div className='h-1 md:w-130 bg-sky-700'></div>
-                <p className='max-w-[600px] text-2xl mr-6'> Experienced creative designer and custom artist based in London, blending innovation with artistic flair. Crafting captivating visuals that leave a lasting impression. </p>
+                <p className='max-w-[600px] text-2xl mr-6'> Versatile software engineer and videographer, combining innovation with creativity. Delivering dynamic visuals and smart solutions that leave a lasting impact. </p>
             </div>
 
 
-            <div className='flex md:flex-row flex-col  items-center gap-x-135 gap-y-4 mt-10'>
+            <div className='flex md:flex-row flex-col  items-center gap-x-155 gap-y-4 mt-10'>
                 <div className='flex items-center gap-3 text-xl'>
-                    <FaInstagram />
+                    {/* <FaInstagram />
                     <FaDribbble />
-                    <FaBehance />
+                    <FaBehance /> */}
                 </div>
 
                 <Button data="Let's Talk">

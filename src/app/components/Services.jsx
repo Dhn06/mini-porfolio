@@ -1,21 +1,28 @@
 import React from 'react'
-import Image from 'next/image' 
+
 
 
 export default function Services() {
     return (
         <div>
-            <div className='text-5xl font-bold mt-10'>
-                <p>I provide artistic <span className='text-blue-600'>solutions</span> to </p>
-                <p> meet your business  </p>
-                <p>requirements.</p>
+            <div className="flex flex-col items-center justify-center mt-10 text-center">
+                <p className="text-2xl sm:text-3xl font-semibold leading-relaxed max-w-2xl">
+                    Empowering brands with
+                    <span className="bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent font-bold px-2">
+                        creative solutions
+                    </span>
+                    that inspire growth.
+                </p>
             </div>
 
             <div className='flex justify-between my-10 gap-x-10'>
-                <div>
-                    {/* <Image src="/writing.png" alt="note" height={620} width={500} /> */}
-                    <p>My services blend creativity and strategy to bring your vision to life, leaving a lasting impact.</p>
+                <div className="max-w-xl text-center mx-auto mt-8">
+                    <p className="text-lg sm:text-xl leading-relaxed text-gray-300">
+                        I craft digital experiences that merge creativity with technology, helping brands connect, inspire, and grow.
+                    </p>
                 </div>
+
+
             </div>
         </div>
     )

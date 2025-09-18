@@ -43,7 +43,7 @@ export default function Footer({ }) {
                     <FooterLink li="Facebook" link="/facebook" />
                     <FooterLink li="Twitter" link="/twitter" />
                     <FooterLink li="Instagram" link="/instagram" />
-                    <FooterLink li="LinkedIn" link="/linkedin" />
+                    <FooterLink li="LinkedIn" link="/https://www.linkedin.com/in/mustapha-yahaya-07025a374" />
                 </ul>
 
 

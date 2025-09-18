@@ -11,7 +11,7 @@ export default function AllProjects() {
   ))
   return (
     <section id="projects">
-      <h1>All Projects</h1>
+      <h1>My Projects</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 space-x-5 space-y-5'>{projectCards}</div>
     </section>
   )

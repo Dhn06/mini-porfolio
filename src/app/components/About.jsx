@@ -16,9 +16,16 @@ export default function About() {
                     className='rounded-4xl' />
 
                 <div className=' flex flex-col gap-y-10'>
+                    <h2 className="text-4xl sm:text-7xl mt-5">
+                        Crafting visuals that
+                        <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"> inspire </span>
+                        impact.
+                    </h2>
 
-                    <h2 className='text-4xl sm:text-7xl mt-5'>Creating designs that <span className='text-blue-600'>ignite</span>  responses.</h2>
-                    <p className='max-w-lg'>Direct your energy towards growing your business, and entrust me with the task of efficiently presenting your business in the digital world, setting it apart from competitors.</p>
+                    <p className='max-w-lg'>
+                        Focus on growing your business, while I craft impactful digital solutions that showcase your brand with clarity and creativity — ensuring you stand out in todays competitive world.
+                    </p>
+
 
                 </div>
             </div>

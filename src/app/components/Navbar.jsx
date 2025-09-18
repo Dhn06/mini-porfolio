@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <nav  className='fixed w-full -z-[-1] bg-neutral-950'>
+        <nav  className=' w-scren -z-[-1] bg-neutral-950'>
             <ul className='flex items-center justify-between mx-10 my-8 font-bold text-lg gap-15'>
                 <div className='flex items-center gap-5'>
                     <li>
@@ -25,16 +25,17 @@ export default function Navbar() {
                             alt='Logo'
                             height={120}
                             width={100}
-                            className='rounded-4xl' />
+                            className='rounded-4xl  ' />
                         {/* <Link href="/logo">Logo</Link> */}
                     </li>
                 </div>
 
-                <div className='flex items-center gap-5'>
+                <div className='flex items-center gap-5 '>
             
                     <li>
                         <Link href="#Contact">Contact</Link>
                     </li>
+                 
                 </div>
             </ul>
         </nav>
