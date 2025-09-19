@@ -61,7 +61,8 @@ const projects = [
     description: "Two-player tic-tac-toe with win/draw detection. Includes reset option.",
     category: "React/Next.js",
     type: "UI/State & Hooks",
-    liveLink: "https://react-mini-projects-kappa.vercel.app/tic-tac-toe-game"
+    liveLink: "https://react-mini-projects-kappa.vercel.app/tic-tac-toe-game",
+
   },
   {
     id: 9,
