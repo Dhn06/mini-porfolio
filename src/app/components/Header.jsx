@@ -13,7 +13,8 @@ export default function Header({ name }) {
         <div className='px-10 '>
             <h1 className='md:text-7xl text-3xl text-center mt-12'>{name}</h1>
             <div className='flex md:flex-row flex-col gap-10 justify-between mt-15 '>
-                <div className='h-1 md:w-130 bg-sky-700'></div>
+              <div className="h-1 w-40 md:w-100 bg-gradient-to-r from-blue-500 via-purple-500 rounded-full  animate-pulse mx-auto"></div>
+
                 <p className='max-w-[600px] text-2xl mr-6'> Versatile software engineer and videographer, combining innovation with creativity. Delivering dynamic visuals and smart solutions that leave a lasting impact. </p>
             </div>
 
