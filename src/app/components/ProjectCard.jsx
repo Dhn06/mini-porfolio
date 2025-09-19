@@ -16,6 +16,7 @@ export default function ProjectCard({ src, title, desc, cat, type, link }) {
                 <p>{type}</p>
                 <Link href={link} className='inline-block bg-blue-500 text-white px-4 py-2 rounded-md'>
                     <button>View Work</button>
+                    <button>Repo Link</button>
                 </Link>
             </div>
 
